@@ -1,0 +1,174 @@
+body {
+    font-family: 'Grenze', sans-serif !important;
+}
+
+/*.hero{*/
+/*    height: 100vh;*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*    align-items: center;*/
+/*    background: #222;*/
+/*    overflow: hidden;*/
+/*}*/
+
+
+path {
+    fill: #555;
+    cursor: pointer;
+}
+path:hover {
+    fill: deepskyblue;
+}
+
+.hero {
+    background: url("https://img.wallpapersafari.com/desktop/1920/1080/82/79/BcNGmh.jpg") no-repeat center/cover;
+    min-height: calc(100vh - 98px);
+}
+
+
+.cards{
+    backdrop-filter: blur(5px);
+}
+.about{
+    height: 100vh;
+    background: url("https://images.unsplash.com/photo-1560930375-f0f48057f535?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80") no-repeat center/cover;
+}
+
+.water {
+    fill: #00248F;
+}
+
+.land {
+    fill: #A98B6F;
+    stroke: #FFF;
+    stroke-width: 0.7px;
+}
+
+.land:hover {
+    fill:#33CC33;
+    stroke-width: 1px;
+}
+
+.focused {
+    fill: #33CC33;
+}
+
+select {
+    position: absolute;
+    top: 20px;
+    left: 580px;
+    border: solid #ccc 1px;
+    padding: 3px;
+    box-shadow: inset 1px 1px 2px #ddd8dc;
+}
+
+.countryTooltip {
+    position: absolute;
+    display: none;
+    pointer-events: none;
+    background: #fff;
+    padding: 5px;
+    text-align: left;
+    border: solid #ccc 1px;
+    color: #666;
+    font-size: 14px;
+    font-family: sans-serif;
+}
+.hero__title{
+    font-size: 120px;
+}
+
+
+
+/*.globe-container,*/
+/*.globe {*/
+/*    width: 200px;*/
+/*    height: 200px;*/
+/*}*/
+/*.globe-container {*/
+/*    position: relative;*/
+/*    display: inline-block;*/
+/*    margin: 0 auto;*/
+/*    transform: scale(5);*/
+/*}*/
+/*.globe {*/
+/*    position: relative;*/
+/*    display: block;*/
+/*    margin-top: 100px;*/
+/*    margin-left: 100px ;*/
+
+/*}*/
+/*.globe-worldmap,*/
+/*.globe-worldmap-front,*/
+/*.globe-worldmap-back,*/
+/*.globe-sphere,*/
+/*.globe-outer-shadow,*/
+/*.globe-inner-shadow {*/
+/*    position: absolute;*/
+/*    display: block;*/
+/*    margin: 0;*/
+/*}*/
+/*.globe-sphere,*/
+/*.globe-outer-shadow,*/
+/*.globe-inner-shadow {*/
+/*    left: 0;*/
+/*    top: 0;*/
+/*    width: 200px;*/
+/*    height: 200px;*/
+/*    background-position: 0 0;*/
+/*    background-repeat: no-repeat;*/
+/*}*/
+/*.globe-worldmap {*/
+/*    left: 0;*/
+/*    top: 0;*/
+/*    width: 200px;*/
+/*    height: 200px;*/
+/*    overflow: hidden;*/
+/*    border-radius: 50%;*/
+/*}*/
+/*.globe-worldmap-front,*/
+/*.globe-worldmap-back {*/
+/*    left: 0;*/
+/*    top: 0;*/
+/*    width: 1000px;*/
+/*    height: 200px;*/
+/*    overflow: visible;*/
+/*    background-image: url(assets/worldmap.svg);*/
+/*    background-repeat: no-repeat;*/
+/*}*/
+/*.globe-outer-shadow {*/
+/*    left: 0;*/
+/*    top: 186px;*/
+/*    width: 200px;*/
+/*    height: 30px;*/
+/*    background-image: url(assets/outer_shadow.svg);*/
+/*}*/
+/*.globe-inner-shadow {*/
+/*    background-image: url(assets/inner_shadow.svg);*/
+/*}*/
+
+/*.globe-worldmap-front {*/
+/*    background-position: 0px 0px;*/
+/*    animation: textureSpinreverse 8s linear infinite;*/
+/*}*/
+/*.globe-worldmap-back {*/
+/*    background-position: 0px -220px;*/
+/*    animation: textureSpin 8s linear infinite;*/
+/*}*/
+
+/*@keyframes textureSpin {*/
+/*    from {*/
+/*        transform: translateX(0);*/
+/*    }*/
+/*    to {*/
+/*        transform: translateX(-47.5%);*/
+/*    }*/
+/*}*/
+/*@keyframes textureSpinreverse {*/
+/*    from {*/
+/*        transform: translateX(-47.5%);*/
+/*    }*/
+/*    to {*/
+/*        transform: translateX(0);*/
+/*    }*/
+/*}*/
